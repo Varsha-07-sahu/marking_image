@@ -2,6 +2,7 @@ import * as React from 'react';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 import { styled } from "@mui/material/styles";
+import UploadButtonDialogBox from './UploadButtonDialogBox';
 
 const ColorButton = styled(Button)(({ theme }) => ({
     // color: theme.palette.getContrastText(purple[500]),
@@ -16,7 +17,8 @@ export default function ButtonList() {
     return (
         <Stack direction="row" spacing={2}>
             <ColorButton variant="contained">Custom CSS</ColorButton>
-            <Button variant="contained">Upload</Button>
+            {/* <Button variant="contained">Upload</Button> */}
+            <UploadButtonDialogBox />
             <Button variant="contained" >
                 Export
             </Button>
