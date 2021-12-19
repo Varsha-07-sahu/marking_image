@@ -182,13 +182,12 @@ function Carousel({
                       II
                     </div>
                   )}
-                  <div
-                    className={`carousel-caption-${
-                      captionPosition ? captionPosition : "bottom"
-                    }`}
+                  {/* <div
+                    className={`carousel-caption-${captionPosition ? captionPosition : "bottom"
+                      }`}
                     style={captionStyle}
                     dangerouslySetInnerHTML={{ __html: item.caption }}
-                  ></div>
+                  ></div> */}
                 </div>
               );
             })}

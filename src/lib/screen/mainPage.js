@@ -77,18 +77,18 @@ function MainPage() {
                     height="500px"
                     captionStyle={captionStyle}
                     radius="10px"
-                    slideNumber={true}
+                    slideNumber={false}
                     slideNumberStyle={slideNumberStyle}
                     captionPosition="bottom"
-                    automatic={true}
-                    dots={true}
+                    automatic={false}
+                    dots={false}
                     pauseIconColor="white"
                     pauseIconSize="40px"
                     slideBackgroundColor="darkgrey"
                     slideImageFit="cover"
                     thumbnails={true}
                     thumbnailWidth="100px"
-                    showNavBtn={true}
+                    showNavBtn={false}
                     style={{
                         textAlign: "center",
                         maxWidth: "850px",

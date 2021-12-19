@@ -28,6 +28,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "core-js": "^3.16.0",
+    "firebase": "^9.6.1",
     "react-carousel-minimal": "^1.4.1",
     "react-easy-swipe": "0.0.22",
     "styled-components": "^5.3.3"
